@@ -16,11 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SubActivity" />
-        <activity android:name=".CamActivity">
+        <activity android:name=".SubActivity" /> <!--ADD THIS APP TO CHOICE OF AN APP ON THE DEVICE -->
+        <activity android:name=".CamActivity"> <!--ADD THIS APP TO CHOICE OF AN APP ON THE DEVICE -->
             <intent-filter>
-                <action android:name="android.media.action.IMAGE_CAPTURE" />
-                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.media.action.IMAGE_CAPTURE" /> <!--DEFINE IT IS A IMAGE APP AS A CAMERA APP -->
+                <category android:name="android.intent.category.DEFAULT" /> <!--DEFINE THE CATEGORY -->
             </intent-filter>
         </activity>
     </application>
